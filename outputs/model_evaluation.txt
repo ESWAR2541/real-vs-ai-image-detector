@@ -1,0 +1,17 @@
+REAL VS AI-GENERATED IMAGE DETECTOR - EVALUATION
+==================================================
+
+Training samples: 5000
+Test samples: 1000
+
+Test accuracy: 0.8640
+Test loss: 0.3178
+
+              precision    recall  f1-score   support
+
+        FAKE       0.87      0.86      0.86       498
+        REAL       0.86      0.87      0.87       502
+
+    accuracy                           0.86      1000
+   macro avg       0.86      0.86      0.86      1000
+weighted avg       0.86      0.86      0.86      1000
